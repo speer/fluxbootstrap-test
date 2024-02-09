@@ -9304,7 +9304,7 @@ spec:
           valueFrom:
             fieldRef:
               fieldPath: metadata.namespace
-        image: acreuwtestak1.azurecr.io/k8s/ghcr.io/fluxcd/helm-controller:v0.37.4
+        image: acreuwak1.azurecr.io/k8s/ghcr.io/fluxcd/helm-controller:v0.37.4
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
@@ -9388,7 +9388,7 @@ spec:
           valueFrom:
             fieldRef:
               fieldPath: metadata.namespace
-        image: acreuwtestak1.azurecr.io/k8s/ghcr.io/fluxcd/kustomize-controller:v1.2.2
+        image: acreuwak1.azurecr.io/k8s/ghcr.io/fluxcd/kustomize-controller:v1.2.2
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
@@ -9471,7 +9471,7 @@ spec:
           valueFrom:
             fieldRef:
               fieldPath: metadata.namespace
-        image: acreuwtestak1.azurecr.io/k8s/ghcr.io/fluxcd/notification-controller:v1.2.4
+        image: acreuwak1.azurecr.io/k8s/ghcr.io/fluxcd/notification-controller:v1.2.4
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
@@ -9566,7 +9566,7 @@ spec:
               fieldPath: metadata.namespace
         - name: TUF_ROOT
           value: /tmp/.sigstore
-        image: acreuwtestak1.azurecr.io/k8s/ghcr.io/fluxcd/source-controller:v1.2.4
+        image: acreuwak1.azurecr.io/k8s/ghcr.io/fluxcd/source-controller:v1.2.4
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
