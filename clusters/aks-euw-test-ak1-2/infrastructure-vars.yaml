@@ -1,8 +1,0 @@
----
-apiVersion: v1
-data:
-  TID: abc
-kind: ConfigMap
-metadata:
-  name: infrastructure-vars
-  namespace: flux-system
