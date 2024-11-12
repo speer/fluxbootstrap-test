@@ -1,0 +1,12 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: k8s-app-of-apps
+  namespace: flux-system
+spec:
+  interval: 0s
+  values:
+    app_of_apps:
+      infrastructure:
+        tid: abc
