@@ -1,0 +1,9 @@
+---
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+patches:
+- path: helmrelease-k8s-app-of-apps.yaml
+resources:
+- flux-system
+- kustomization-tenants.yaml
+- ../test
