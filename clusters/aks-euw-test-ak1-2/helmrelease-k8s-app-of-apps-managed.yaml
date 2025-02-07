@@ -8,6 +8,6 @@ spec:
   values:
     app_of_apps:
       infrastructure:
-        rbac_namespace_admin_group: 1234-123-1
+        rbac_namespace_admin_group: 12324-123-1
         rbac_namespace_view_group: 5678-123-2
         tid: abc
