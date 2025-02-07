@@ -30,6 +30,7 @@ patches:
         name: AZURE_CLIENT_ID
         value: 678-132
   target:
+    apiVersion: apps/v1
     kind: Deployment
     name: source-controller
 - patch: |
