@@ -17,11 +17,11 @@ patches:
     kind: Deployment
     name: kustomize-controller
 - patch: |
-    - op: add
+    - op: ad2d
       path: /spec/template/spec/containers/0/args/-
       value: --default-service-account=default
   target:
-      kind: Deployment
+    kind: Deployment
     name: (kustomize-controller|helm-controller)
 - patch: |
     - op: add
