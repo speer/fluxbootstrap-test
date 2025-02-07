@@ -10,7 +10,7 @@ spec:
     secretRef:
       name: sops-age
   interval: 10m0s
-  path: ./tenants/aks-euw-test-ak1-2
+  path: ./tenants/aks-euw-te2st-ak1-2
   prune: true
   serviceAccountName: kustomize-controller
   sourceRef:
