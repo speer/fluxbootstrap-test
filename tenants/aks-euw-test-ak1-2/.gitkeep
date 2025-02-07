@@ -1,1 +1,8 @@
-abc: test
+apiVersion: v1
+kind: Secret
+metadata:
+  name: test
+  namespace: test
+type: Opaque
+data:
+  abc: ""
