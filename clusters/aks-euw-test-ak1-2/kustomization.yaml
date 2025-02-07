@@ -6,3 +6,4 @@ patches:
 resources:
 - flux-system
 - kustomization-tenants.yaml
+- ../test
