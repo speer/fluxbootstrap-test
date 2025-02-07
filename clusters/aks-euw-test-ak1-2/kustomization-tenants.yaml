@@ -12,7 +12,7 @@ spec:
   interval: 10m0s
   path: ./tenants/aks-euw-test-ak1-2
   prune: true
-  serviceAccountName: kustomize-controller
+  serviceAccountName: kustomi2ze-controller
   sourceRef:
     kind: GitRepository
     name: flux-system
