@@ -19,3 +19,4 @@ spec:
             a: b
     flc_unit:
       enabled: true
+      values: {}
