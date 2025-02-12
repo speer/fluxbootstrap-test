@@ -13,5 +13,6 @@ spec:
         tid: abc
     flc_core:
       enabled: true
+      values: {}
     flc_unit:
       enabled: true
