@@ -1,0 +1,8 @@
+---
+apiVersion: helm.toolkit.fluxcd.io/v2
+kind: HelmRelease
+metadata:
+  name: k8s-app-of-apps
+  namespace: flux-system
+spec:
+  values: null
