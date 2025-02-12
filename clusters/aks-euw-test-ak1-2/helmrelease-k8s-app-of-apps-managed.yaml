@@ -11,3 +11,12 @@ spec:
         rbac_namespace_admin_group: 1234-123-1
         rbac_namespace_view_group: 5678-123-2
         tid: abc
+    flc_core:
+      enabled: true
+      values:
+        global:
+          test:
+            a: b
+    flc_unit:
+      enabled: true
+      values: null
