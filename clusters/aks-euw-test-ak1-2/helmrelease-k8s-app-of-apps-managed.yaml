@@ -13,10 +13,5 @@ spec:
         tid: abc
     flc_core:
       enabled: true
-      values:
-        global:
-          test:
-            a: b
     flc_unit:
       enabled: true
-      values: null
