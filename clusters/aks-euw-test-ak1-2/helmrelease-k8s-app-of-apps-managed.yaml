@@ -13,6 +13,7 @@ spec:
         tid: abc
     flc_core:
       enabled: true
-      values: {}
+      values:
+        Raw: eyJnbG9iYWwiOnsidGVzdCI6eyJhIjoiYiJ9fX0=
     flc_unit:
       enabled: true
